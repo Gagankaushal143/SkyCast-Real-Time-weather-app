@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast | Real Time Weather App</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1e72e521bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="logo">SkyCast</h1>
+
+    <div class="container" id="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter Your Location" id="input">
+            <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+        </div>
+        
+        <div class="cityname">
+            <h3 id="cityName" style="display: none;"></h3>
+            <p id="date"></p>
+        </div>
+        
+        
+        <div class="weather-box" id="weatherBox" style="display: none;">
+
+            <div class="mainweather">
+                <img id="weatherIcon" src="" alt="Weather Icon">
+                <div class="tempcon">
+                    <h1 id="temperature"><sup>°C</sup></h1>
+                    <p id="condition"></p>
+                </div>
+            </div>
+
+            <div class="extras">
+                <div class="col">
+                    <img src="assets/thermometer.png" alt="">
+                    <p>Feels Like: <span id="feelsLike"></span></p>
+                </div>
+                <div class="col">
+                    <img src="assets/humidity.png" alt="">
+                    <p>Humidity: <span id="humidity"> </span></p>
+                </div>
+                <div class="col">
+                    <img src="assets/wind.png" alt="">
+                    <p>Wind: <span id="windSpeed"> </span></p>
+                </div>
+                <div class="col">
+                    <img src="assets/cloud.png" alt="">
+                    <p>Clouds: <span id="clouds"> </span></p>
+                </div>
+                <div class="col">
+                    <img src="assets/sunrise.png" alt="">
+                    <p>Sunrise: <span id="sunrise"> </span></p>
+                </div>
+                <div class="col">
+                    <img src="assets/sunset.png" alt="">
+                    <p>Sunset: <span id="sunset"> </span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
