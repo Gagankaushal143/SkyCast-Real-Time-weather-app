@@ -1,8 +1,15 @@
 # SkyCast-Real-Time-weather-app
+
+
 **SkyCast** is a simple and elegant real-time weather web application built using **HTML**, **CSS**, and **JavaScript**.  
 It fetches live weather data using the **OpenWeatherMap API** and displays key details such as **temperature**, **humidity**, **sunrise & sunset times**, and more — all in a clean, responsive UI..
 
+
+
 **Live Demo**: https://gagankaushal143.github.io/SkyCast-Real-Time-weather-app/
+
+
+
 
 ## 🌦️ Features
 
@@ -12,6 +19,7 @@ It fetches live weather data using the **OpenWeatherMap API** and displays key d
 - 🌅 **Sunrise and Sunset timings** based on location  
 - 🔍 **City-based search** for quick weather lookups and displays the local time of the searched city
 - 📱 **Responsive design** for all screen sizes
+
 
 
 
@@ -30,6 +38,34 @@ It fetches live weather data using the **OpenWeatherMap API** and displays key d
 1. **Clone this repository**
    ```bash
    git clone https://github.com/Gagankaushal143/SkyCast-Real-Time-weather-app.git
+    ```
+   
+2. **Navigate into project folder**
+   ```bash
+   cd SkyCast-Real-Time-weather-app
    ```
-2. 
+3. Open in your browser Simply open index.html in your preferred browser.
+4. Make sure you have a valid OpenWeatherMap API key
 
+5. **Add your API key**
+
+   Open the JavaScript file (e.g., script.js)
+
+   Replace the placeholder with your API key:
+   ```javascript
+   const apiKey = "YOUR_API_KEY_HERE";
+   ```
+
+
+
+
+##  Future Enhancements
+
+📍 Auto-detect user’s current location
+
+🌈 Hourly and weekly forecast view
+
+🌐 Support for multiple languages and units (°C/°F)
+
+💬 Dark/Light theme toggle
+   
