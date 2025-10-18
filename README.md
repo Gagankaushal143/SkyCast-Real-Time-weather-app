@@ -71,7 +71,7 @@ It fetches live weather data using the **OpenWeatherMap API** and displays key d
 
 ## 📭Contact
 
-- **Github**: @Gagankaushal143
-- **LinkedIn**:https://www.linkedin.com/in/gagankaushal143/
-- **Email**: gagankaushal143@gmail.com 
+- **Github:** https://github.com/Gagankaushal143
+- **LinkedIn:** https://www.linkedin.com/in/gagankaushal143/
+- **Email:** gagankaushal143@gmail.com 
    
